@@ -1,0 +1,25 @@
+body {
+  /* background: url("https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); */
+  object-fit: scale-down;
+}
+h2 {
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+}
+p {
+  background: url("https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  object-fit: contain;
+  font-size: 1.5rem;
+  color: white;
+}
+div {
+  width: 200px;
+  margin: 20px;
+  padding: 20px;
+}
+
+ul {
+  width: 200px;
+  margin: 20px;
+  padding: 20px;
+}

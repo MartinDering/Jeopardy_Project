@@ -1,0 +1,115 @@
+img {
+  width: 300px;
+}
+
+h2 {
+  color: hsla(180, 50%, 50%, 1);
+}
+
+h1 {
+  color: rgb(198, 106, 2);
+}
+
+#logo {
+  width: 100px;
+}
+
+.poem p {
+  color: rgba(113, 0, 109, 0.991);
+  font-style: italic;
+}
+nav a {
+  text-decoration: none;
+}
+
+h2 + h3 {
+  color: blueviolet;
+}
+.poem + img {
+  width: 800px;
+}
+
+.paragraph {
+  color: rgb(255, 0, 183);
+}
+.paragraph + h3 {
+  color: rgb(3, 192, 244);
+}
+
+/* ul > li {
+  font-size: 28px;
+}
+
+ul > li > ul > li {
+  font-size: 15px;
+} */
+
+/* .poem > p {
+  color: black;
+  font-style: normal;
+  font-weight: 600;
+} */
+#works li {
+  font-size: 16px;
+}
+
+#works > li {
+  font-size: 1.5em;
+}
+h2,
+a {
+  color: red;
+}
+h2 {
+  font-size: 30px;
+}
+
+nav li :hover {
+  color: darkblue;
+  text-decoration: underline;
+}
+
+nav li:nth-of-type(2n):hover {
+  background-color: rgba(42, 71, 237, 0.817);
+}
+/* Seconds of same types are overidden as shown here from above and below */
+nav li:nth-of-type(2n):hover {
+  background-color: rgba(59, 255, 69, 0.817);
+}
+
+nav li:nth-of-type(2n + 1):hover {
+  background-color: rgb(211, 170, 249);
+}
+
+/* input:focus {
+  background-color: rgb(255, 107, 208);
+  text-shadow: 3px 3px 3px rgb(120, 120, 50, 20);
+} */
+
+.poem section p:first-of-type::first-letter {
+  font-size: 2em;
+}
+
+.poem section p:first-of-type::first-line {
+  background-color: aquamarine;
+}
+
+/* input {
+  background-color: rgb(255, 107, 208);
+} */
+
+input:focus::placeholder {
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  /* font-weight: ; */
+}
+input[type="text"]:focus {
+  background-color: aqua;
+}
+img[src*="unsplash"] {
+  width: 450px;
+}
+
+ul[li*="home"]:hover {
+  font-size: 100px;
+}

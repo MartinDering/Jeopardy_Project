@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables/ Forms</title>
+</head>
+<body>
+    <h1>HTML: Tables and Forms</h1>
+    <br>
+    <table>
+        <tr>
+            <td>Dog</td>
+            <td>5</td>
+            <tr>
+            <td>Jaguar</td>
+            <td>2</td>
+            </tr>
+        </tr>
+    </table>
+   <hr>
+ 
+
+    <table>
+        <tr>
+            <th>Humans</th>
+            <th># Arms</th>
+        </tr>
+        <tr>
+            <td>Cat</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Squid</td>
+            <td>7</td>
+        </tr>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>Apples</th>
+                <th># Different types</th>
+            </tr>
+        </thead>
+        <tbody>
+        
+            <tr>
+                <td>Green</td>
+                <td>10</td>
+            </tr>    
+            <tr>
+                <td>Red</td>
+                <td>25</td>    
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <td>35</td>
+            </tr>
+        </tfoot>
+    </table>
+    <form> 
+        User input
+    </form> 
+    <form>  
+        <p>
+            <input name="First-Name">
+        </p>
+        </p>
+    </form>
+    <input type="text" name="First-Name" minlength="2" maxlength="20" placeholder="Enter First Name" required>
+    <form>
+        <input type="checkbox" name="extra-cheese">
+        Add extra cheese?
+    </form>
+    <form>
+        Enter Password <input type="password" name="new-password">
+    </form>
+    <form>
+        Enter email <input type="email" name="user-email">                                          
+    </form>
+    <form>
+        Type of color: <br>
+        <input type="radio" name="what-color" value="red"> Red <br>
+        <input type="radio" name="what-color" value="green"> Green <br>
+        <input type="radio" name="what-color" value="green"> Blue <br>
+    </form>
+    <form>
+        First Name: <input name="first-name"> <br>
+        Last Name: <input name="last-name"> <br>
+        <button type="submit">Go!</button>
+    </form>
+   <select name="Super-Hero">
+    <option value="">Select-Choice</option>
+    <option value="Spider-Man">Spider-Man</option>
+    <option value="Green-Arrow">Green-Arrow</option>
+    <option value="Hulk">Hulk</option>
+   </select> <br>
+   <textarea name="History" rows="10" cols="10"></textarea>
+   <br>
+   <br>
+   <form method="post" enctype="multipart/form-data">
+    Choose file to upload:
+    <input type="file" name="my-file">
+    <button type="submit">Upload File</button>
+   </form>
+
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+
+
+
+h1 {
+    background-color: rgb(255, 136, 25);
+    color: #05daff;
+    text-align: center;
+    font-weight:  normal;
+    letter-spacing: 15px;
+   font-size: 3vw;
+    
+}
+p:hover {
+    background-color: rgb(254, 182, 0);
+    color: #5ae7ec;
+    
+    
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+
+}
+
+body {
+    background-color: #07a5c1;
+    
+    /* font-size: 1vw; */
+    
+}
+p {
+    font-weight: bold;
+    line-height: 25px;
+    text-align: center;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms Demo!</h1>
+    <form>
+        <input 
+            name="city" 
+            type="text" 
+            placeholder="Enter City Name" 
+            minlength="2" 
+            maxlength="10" > 
+            <!-- <! --The name creates a label for the server Visualy does not need to be in a form, but if sending data off, needs to be within a form -->
+
+<h2>New Register</h2>
+    <form>
+        <button type="button"> <b>First Button</b></button>
+        <input type="email" placeholder="Email" name="email">
+        <input type="password" name="new-password" placeholder="Enter Password">
+        <input type="checkbox" name="tos-agree"> I agree to the terms of service
+        <!-- <input type="button"> Dont use this type of button no Input-->
+        <button>Submit Here</button>
+        <p>Select a Good Dog name</p>
+        <input type="radio" name="dog-name" value="Leo"> Leo <br>
+        <input type="radio" name="dog-name" value="Nala"> Nala <br>
+        <input type="radio" name="dog-name" value="Simba"> Simba 
+        <button type="submit">Submit!</button>
+
+    </form>
+    <h2>Input types</h2>
+    <form>
+        <input type="color" name="color"  value="Button down shirt"> Button Down Shirt
+        <br>
+        <input type="radio" name="color" value="T-Shirt"> T-shirt <br>
+        <input type="radio" name="color" value="Tank-top"> Tank-top  <br>
+
+    </form>
+    <h2>Here are Form options</h2>
+    <form>
+        <P>Which animal do you like the most?</P>
+        <select name="Animal">
+            <option value="">--Choose favorite Animal--</option>
+            <option value="Dog">Dog</option>
+            <option value="Cat">Cat</option>
+            <option value="Lion">Lion </option>
+            <option value="Cheetah">Cheetah</option>
+            <option value="Dolphin">Dolphin</option>
+        </select>
+    </form>
+    <form action="https://www.google.com/search" method="get">
+        <input type="text" name="q" >
+        <button type="submit" name="search" >Search</button>
+    </form>
+
+    
+</body>
+</html>
